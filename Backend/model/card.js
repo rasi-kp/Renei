@@ -16,6 +16,9 @@ const Cards = sequelize.define('Cards', {
   card_description: {
     type: DataTypes.STRING,
   },
+  card_description1: {
+    type: DataTypes.STRING,
+  },
   image: {
     type: DataTypes.STRING,
   },
